@@ -1,0 +1,57 @@
+/* App component styles */
+
+.bg-image {
+  background-image: url("assets/images/app-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  min-height: 95vh;
+}
+
+.mail-link {
+  text-decoration: none;
+}
+
+.text-size {
+  font-size: 1.25rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #6c757d;
+}
+
+.icon:hover {
+  color: #ffffff;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.users {
+  background-color: #c8c8c8;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  border-radius: 7.5px;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.search-user-links {
+  background-color: #c8c8c8;
+  border: none;
+  width: 100%;
+}
+
+.search-user-links:hover {
+  background-color: #b4b4b4;
+}
+
+.no-user {
+  background-color: #c8c8c8;
+  color: #000000;
+}

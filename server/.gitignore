@@ -1,0 +1,8 @@
+# environment variables
+/.env
+
+# node modules
+/node_modules
+
+# rest client
+/req.http

@@ -1,0 +1,45 @@
+/* Home component styles */
+
+.svg {
+  display: block;
+}
+
+.blog-svg-xlarge {
+  height: 22.5rem;
+  width: 27.5rem;
+}
+
+.blog-svg-large {
+  height: 20rem;
+  width: 25rem;
+}
+
+.blog-svg-med {
+  height: 17.5rem;
+  width: 20rem;
+}
+
+.blog-svg-small {
+  height: 15rem;
+  width: 15rem;
+}
+
+.publish-svg-xlarge {
+  height: 20rem;
+  width: 25rem;
+}
+
+.publish-svg-large {
+  height: 17.5rem;
+  width: 20rem;
+}
+
+.publish-svg-med {
+  height: 15rem;
+  width: 15rem;
+}
+
+.publish-svg-small {
+  height: 12.5rem;
+  width: 10rem;
+}

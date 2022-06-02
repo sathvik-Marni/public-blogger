@@ -1,0 +1,70 @@
+/* PostType component styles */
+
+.whitespace {
+  white-space: pre-line;
+}
+
+.edit-delete-button {
+  background: none;
+  border: none;
+}
+
+.modal-font {
+  font-family: "Signika", sans-serif;
+}
+
+.post-image {
+  max-width: 75%;
+  max-height: 17.5rem;
+}
+
+.card-relative {
+  position: relative;
+}
+
+.button-absolute {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+.paginationbuttons {
+  display: flex;
+  list-style: none;
+  font-size: 1.25rem;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 3rem;
+  padding: 0;
+}
+
+.paginationbuttons a {
+  border: 2px solid #212529;
+  border-radius: 2.5px;
+  padding: 0.5rem;
+}
+
+.paginationbuttons a:hover {
+  background-color: #c9c9c9;
+  color: #212529;
+}
+
+.previousbutton,
+.nextbutton {
+  text-decoration: none;
+  color: #212529;
+}
+
+.form-input-list {
+  position: relative;
+}
+
+.users-list {
+  background-color: #c8c8c8;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  border-radius: 7.5px;
+  width: 100%;
+  padding: 5px 0;
+}
