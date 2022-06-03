@@ -70,7 +70,7 @@ const Signin = () => {
             className="form-control"
             {...register("username", {
               required: true,
-              pattern: /^[A-Za-z][A-Za-z0-9_]{7,29}$/,
+              pattern: /^[a-zA-Z0-9]*$/,
             })}
           />
           {errors.username?.type === "required" && (
@@ -78,7 +78,7 @@ const Signin = () => {
           )}
           {errors.username?.type === "pattern" && (
             <p className="text-danger">
-              *Username shouldn't have special symbols or white spaces
+              *Username shouldn't have white spaces
             </p>
           )}
         </div>

@@ -36,6 +36,17 @@ const postApp = require("./APIs/postApi");
 
 app.use("/post", postApp);
 
+const path = require("path");
+
+// handling page reloads and build connectivity
+if (process.env.NODE_ENV !== "production") {
+  app.use(exp.static(path.join(__dirname, '..', 'client', 'build')));
+
+  app.use("*", (req, res) => {
+    res.sendFile(path.join(__dirname, '..',"client", "build", "index.html"));
+  });
+}
+
 // handling invalid paths
 app.use((req, res) => {
   res.send({ message: `Invalid path ${req.url}` });
